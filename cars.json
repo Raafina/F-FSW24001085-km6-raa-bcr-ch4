@@ -1,0 +1,227 @@
+[
+  {
+    "name": "F150",
+    "photo": "./assets/data-mobil/car01.min.jpg",
+    "rent_day": 200000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "X5",
+    "photo": "./assets/data-mobil/car02.min.jpg",
+    "rent_day": 800000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "MKZ",
+    "photo": "./assets/data-mobil/car03.min.jpg",
+    "rent_day": 900000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "M5",
+    "photo": "./assets/data-mobil/car04.min.jpg",
+    "rent_day": 900000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Navigator",
+    "photo": "./assets/data-mobil/car05.min.jpg",
+    "rent_day": 200000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Fiesta",
+    "photo": "./assets/data-mobil/car06.min.jpg",
+    "rent_day": 900000,
+    "size": 4,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Accord",
+    "photo": "./assets/data-mobil/car07.min.jpg",
+    "rent_day": 900000,
+    "size": 4,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Navigator",
+    "photo": "./assets/data-mobil/car08.min.jpg",
+    "rent_day": 300000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "LaCrosse",
+    "photo": "./assets/data-mobil/car09.min.jpg",
+    "rent_day": 1000000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "X5",
+    "photo": "./assets/data-mobil/car10.min.jpg",
+    "rent_day": 300000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Malibu",
+    "photo": "./assets/data-mobil/car11.min.jpg",
+    "rent_day": 700000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "X3",
+    "photo": "./assets/data-mobil/car12.min.jpg",
+    "rent_day": 800000,
+    "size": 4,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Malibu",
+    "photo": "./assets/data-mobil/car13.min.jpg",
+    "rent_day": 900000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Malibu",
+    "photo": "./assets/data-mobil/car14.min.jpg",
+    "rent_day": 700000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "MKS",
+    "photo": "./assets/data-mobil/car15.min.jpg",
+    "rent_day": 900000,
+    "size": 4,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Silverado",
+    "photo": "./assets/data-mobil/car16.min.jpg",
+    "rent_day": 200000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "MKS",
+    "photo": "./assets/data-mobil/car17.min.jpg",
+    "rent_day": 1000000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Ram",
+    "photo": "./assets/data-mobil/car18.min.jpg",
+    "rent_day": 700000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "F150",
+    "photo": "./assets/data-mobil/car19.min.jpg",
+    "rent_day": 600000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "A4",
+    "photo": "./assets/data-mobil/car20.min.jpg",
+    "rent_day": 700000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Durango",
+    "photo": "./assets/data-mobil/car21.min.jpg",
+    "rent_day": 400000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "S5",
+    "photo": "./assets/data-mobil/car22.min.jpg",
+    "rent_day": 300000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Camry",
+    "photo": "./assets/data-mobil/car23.min.jpg",
+    "rent_day": 200000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Pathfiner",
+    "photo": "./assets/data-mobil/car24.min.jpg",
+    "rent_day": 600000,
+    "size": 6,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  },
+  {
+    "name": "Civic",
+    "photo": "./assets/data-mobil/car25.min.jpg",
+    "rent_day": 1000000,
+    "size": 2,
+    "createdAt" : new Date(),
+    "updatedAt" : new Date()
+    
+  }
+]

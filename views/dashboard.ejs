@@ -1,0 +1,126 @@
+<!-- list and add new -->
+<div class="container-fluid pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>List car</h3>
+      </div>
+      <div class="col-md-6 d-flex justify-content-end">
+        <a href="/dashboard/add-car" style="text-decoration: none"
+          ><button
+            class="btn btn-outline-primary d-flex align-items-center"
+            style="background-color: blue; color: white; font-weight: 400"
+          >
+            <img src="Icons/icon_plus" alt="" />Add New Car
+          </button></a
+        >
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-md-12">
+        <a class="btn btn-outline-secondary" href="#" role="button">All</a>
+        <a class="btn btn-outline-secondary" href="#" role="button">Small</a>
+        <a class="btn btn-outline-secondary" href="#" role="button">Medium</a>
+        <a class="btn btn-outline-secondary" href="#" role="button">Large</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- card -->
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <% if (typeof data.data !== 'undefined' ) { %> <%
+      data.data.data.forEach(car => { %>
+      <div class="col-md-4">
+        <div class="card flex-fill">
+          <img
+            src="<%= car.image %>"
+            class="card-img-top p-4"
+            alt="car sample"
+          />
+          <div class="card-body d-flex flex-column">
+            <p style="font-weight: 500"><%= car.model %></p>
+            <h5 class="card-title"><%= car.rentPerDay %></h5>
+            <p>Updated At <%= car.updatedAt%></p>
+
+            <div class="mt-auto">
+              <div class="row">
+                <div class="col-md-6 mt-2 d-flex">
+                  <form action="" class="flex-fill d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger flex-fill"
+                      style="background-color: white; color: red"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Delete
+                    </button>
+                  </form>
+                </div>
+                <div class="col-md-6 mt-2 d-flex">
+                  <button
+                    type="button"
+                    class="btn btn-success flex-fill"
+                    style="background-color: #5cb85f"
+                  >
+                    Edit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }); %> <% } %>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row justify-content-center">
+          <img
+            src="../public/Image/img-BeepBeep.png"
+            alt=""
+            style="width: 200px; align-items: center"
+          />
+          <div class="col-md-12">
+            <h4 style="text-align: center">Menghapus Data Mobil</h4>
+            <p style="text-align: center">
+              Setelah dihapus, data mobil tidak dapat dikembalikan. Yakin ingin
+              menghapus
+            </p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-3 d-flex">
+              <button type="button" class="btn btn-primary mt-2 flex-fill">
+                Ya
+              </button>
+            </div>
+            <div class="col-md-3 d-flex">
+              <button
+                type="button"
+                class="btn btn-outline-primary mt-2 flex-fill"
+                data-bs-dismiss="modal"
+              >
+                Tidak
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

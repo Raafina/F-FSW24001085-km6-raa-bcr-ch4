@@ -1,0 +1,31 @@
+{
+  "name": "f-fsw-24001085-km6-has-bcr-ch4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fresh": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cloudinary": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.5.0",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "postgre": "^0.1.8",
+    "redis": "^4.6.13",
+    "sequelize": "^6.37.1",
+    "sequelize-auto-import": "^1.1.1",
+    "sequelize-cli": "^6.6.2"
+  }
+}
